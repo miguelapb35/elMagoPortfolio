@@ -1,29 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Slackside+One&display=swap');
+
 @font-face {
-  font-family: 'Inter var';
+  font-family: 'SlacksideOne-Regular.ttf';
+  font-family: "Slackside One", cursive;
+  font-weight: 400;
   font-style: normal;
-  font-weight: 100 900;
-  font-display: block;
-  src: url(/fonts/Inter-roman.latin.var.woff2) format('woff2');
-}
-@font-face {
-  font-family: 'Inter var';
-  font-style: italic;
-  font-weight: 100 900;
-  font-display: block;
-  src: url(/fonts/Inter-italic.latin.var.woff2) format('woff2');
-  font-named-instance: 'Italic';
+  src: url(/fonts/SlacksideOne-Regular.ttf) format('ttf');
 }
 
+
 body {
-  font-family: 'Inter var', system-ui, -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  -webkit-font-smoothing: subpixel-antialiased;
-  font-feature-settings: 'case' 1, 'cpsp' 1, 'dlig' 1, 'cv01' 1, 'cv02',
-    'cv03' 1, 'cv04' 1;
-  font-variation-settings: 'wght' 450;
-  font-variant: common-ligatures contextual;
-  letter-spacing: -0.02em;
+  /* font-family: "Madimi One", sans-serif; 
+  font-family: "Slackside One", cursive;*/
+  font-family: "Slackside One";
+
+  font-style: normal;
+  /* background: #ffffff url("https://unsplash.com/photos/WeYamle9fDM") no-repeat right top; */
+
 }
 b,
 strong,
@@ -45,6 +38,7 @@ h2 {
   body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-size: 3 vw;
   }
 }
 
@@ -63,3 +57,6 @@ img.next-image {
 .nav-line .nav-link {
   color: #69778c;
 }
+
+
+
