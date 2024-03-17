@@ -8,15 +8,17 @@
   src: url(/fonts/SlacksideOne-Regular.ttf) format('ttf');
 }
 
+.max-md\:nx-prose-sm {
+  font-size: 1.6rem;
+  line-height: 1.71429;
+} 
+
 
 body {
-  /* font-family: "Madimi One", sans-serif; 
-  font-family: "Slackside One", cursive;*/
   font-family: "Slackside One";
-
+  font-size: 1.3rem;
   font-style: normal;
   /* background: #ffffff url("https://unsplash.com/photos/WeYamle9fDM") no-repeat right top; */
-
 }
 b,
 strong,
@@ -38,9 +40,16 @@ h2 {
   body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-size: 3 vw;
+    
   }
+/*   .max-md\:nx-prose-sm {
+    font-size: 0.3rem;
+    line-height: 1.71429;
+  }  */
+  
 }
+
+
 
 details summary {
   cursor: pointer;

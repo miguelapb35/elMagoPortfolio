@@ -4,7 +4,7 @@ export default function Document() {
   const meta = {
     title: 'Portfolio Miguel Parra',
     description: 'Esto es algo de mi trabajo...',
-    image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
+    image: 'https://plus.google.com/s2/photos/profile/27442&ec=GBRAdQ?sz=150'
   }
 
   return (
