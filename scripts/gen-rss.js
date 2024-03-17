@@ -6,7 +6,7 @@ const matter = require('gray-matter')
 async function generate() {
   const feed = new RSS({
     title: 'Interesting Feed',
-    site_url: 'https://yoursite.com',
+    site_url: 'https://feeder.co/discover/c90e76567b/usabilitygeek-com',
     feed_url: 'https://yoursite.com/feed.xml'
   })
 
