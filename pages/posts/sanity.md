@@ -6,6 +6,6 @@ tag: web development
 author: You
 ---
 
-## h2 How Amplitude drives product-led growth with Sanity
+##  How Amplitude drives product-led growth with Sanity
 
 - [Sanity](https://www.sanity.io/)    

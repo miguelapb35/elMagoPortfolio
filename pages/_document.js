@@ -3,7 +3,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 export default function Document() {
   const meta = {
     title: 'Portfolio Miguel Parra',
-    description: 'Esto es algo de mi trabajo...',
+    description: 'This is some of my work...',
     image: 'https://plus.google.com/s2/photos/profile/27442&ec=GBRAdQ?sz=150'
   }
 
