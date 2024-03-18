@@ -5,9 +5,9 @@ const matter = require('gray-matter')
 
 async function generate() {
   const feed = new RSS({
-    title: 'Interesting Feed',
+    title: 'UX Design Feed',
     site_url: 'https://feeder.co/discover/c90e76567b/usabilitygeek-com',
-    feed_url: 'https://yoursite.com/feed.xml'
+    feed_url: 'https://feeder.co/discover/c90e76567b/usabilitygeek-com/feed.xml'
   })
 
   const posts = await fs.readdir(path.join(__dirname, '..', 'pages', 'posts'))
