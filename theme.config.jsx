@@ -17,5 +17,11 @@ export default {
         url: 'https://github.com/shuding/nextra',
         name: 'Nextra'
       }
+    ],
+    i18n: [
+      { locale: 'en-US', text: 'English' },
+      { locale: 'zh-CN', text: '中文' },
+      { locale: 'de-DE', text: 'Deutsch' },
+      { locale: 'ar-SA', text: 'العربية', direction: 'rtl' }
     ]
   }
