@@ -2,7 +2,7 @@ const withNextra = require('nextra')('nextra-theme-blog', './theme.config.js')
 
 module.exports = withNextra({
     i18n: {
-      locales: ['en-US', 'zh-CN', 'de-DE'],
+      locales: ['zh-CN', 'de-DE', 'en-US'],
       defaultLocale: 'en-US'
     }
   })
